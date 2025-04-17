@@ -1,0 +1,104 @@
+.navbar {
+    background-color: #0B0B0E;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border-bottom: 1px solid #333;
+}
+
+.left-nav, .right-nav {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 30px;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-links li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding: 0 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.nav-links li a:hover {
+    background-color: #333;
+}
+
+.nav-actions {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.nav-actions li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 5px;
+    height: 40px;
+}
+
+a.login, a.signup, a.cart {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 10px;
+}
+
+a.login:hover, a.cart:hover {
+    background-color: #333;
+}
+
+a.signup {
+    background-color: whitesmoke;
+    color: black;
+}
+
+a.signup:hover {
+    background-color: grey;
+}
+
+.company-name{
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}

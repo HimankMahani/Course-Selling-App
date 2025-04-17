@@ -1,0 +1,121 @@
+.hero {
+    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 50px;
+  color: white;
+  background-color: #0B0B0E;
+}
+
+.content {
+  flex: 1;
+  padding-right: 3rem;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #aaaaaa;
+  line-height: 1.6;
+}
+
+.search {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.search input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  background-color: #222;
+  color: white;
+}
+
+.search-button {
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.browse-button, .learn-more-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.browse-button {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.learn-more-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.statistics {
+  display: flex;
+  gap: 3rem;
+}
+
+.stats h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  color: white;
+  font-weight: bold;
+}
+
+.stats p {
+  font-size: 1rem;
+  color: #aaaaaa;
+  margin: 0;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 60px;
+
+}
+
+.image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
